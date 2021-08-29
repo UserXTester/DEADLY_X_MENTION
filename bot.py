@@ -17,7 +17,7 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("__**Im DEADLY MentionAll Bot**, I can mention almost all members in group or channel 👻\nClick **/help** AND PLEASE SUPPORT [DEADLY FIGHTERS](https://t.me/DEADLY_FIGHTERS) ",
+  await event.reply("**Im DEADLY TAGGER ROBOT**, I can mention almost all members in group or channel 😉\nClick **/help** \n\n AND PLEASE SUPPORT [DEADLY FIGHTERS](https://t.me/DEADLY_FIGHTERS) ",
                     buttons=(
                       [Button.url('📢 Channel', 'https://t.me/DEADLY_NETWORK'),
                       Button.url('🔰SUPPORT🔰', 'https://t.me/DEADLY_FIGHTERS')]
@@ -26,7 +26,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of DEADLY MentionAllBot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nPLEASS SUPPORT @DEADLY_FIGHTERS"
+  helptext = "**Help Menu of DEADLY TAGGER ROBOT**\n\nCommand: /nall\n__You can use this command with text what you want to mention others.__\n`Example: /all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nPLEASS SUPPORT @DEADLY_FIGHTERS"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('📢 Channel', 'https://t.me/DEADLY_NETWORK'),
