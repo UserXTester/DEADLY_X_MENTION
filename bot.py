@@ -19,8 +19,8 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 async def start(event):
   await event.reply("**Im DEADLY TAGGER ROBOT**, I can mention almost all members in group or channel 😉\nClick **/help** \n\n AND PLEASE SUPPORT [DEADLY FIGHTERS](https://t.me/DEADLY_FIGHTERS) ",
                     buttons=(
-                      [Button.url('📢 Channel', 'https://t.me/DEADLY_NETWORK'),
-                      Button.url('🔰SUPPORT🔰', 'https://t.me/DEADLY_FIGHTERS')]
+                      [Button.url('📢 Channel', 'https://t.me/DEADLY_TECHY'),
+                      Button.url('🔰SUPPORT🔰', 'https://t.me/DEADLY_USERBOT')]
                     ),
                     link_preview=False
                    )
